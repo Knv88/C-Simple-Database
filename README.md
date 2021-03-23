@@ -18,9 +18,19 @@ Examples of commands that the program accepts:(without the first and the last ""
 "IMPORT table1_name example.csv"     ---> this is an alternative for INSERT, it can accept cvs's that are in the Debug folder.
 
 "SELECT (collumn1_name,collumn2_name) FROM table1_name WHERE collumn2_name = 3"   -->will display the values from collumn 1 and 2 from the rows where the values of                                  collumn 2 is 3.
+
+
 "SELECT ALL FROM table1_name"   -->selects all the collums and rows from the table, the WHERE clause is optional. also, oll the select commands will generate a text report of the rows displayed in the folder "SELECT"
+
+
 "DISPLAY TABLE table1_name"    -->will display all the data form the table,and will generate a text file in the "DISPLAY" folder
+
 "UPDATE table1_name SET collumn1_name = "new_value" WHERE collumn2_name = 3"  --> will replace the old values with the new value wherever it will find 3 on the second collumn
+
+
 "DELETE FROM table1_name WHERE collumn2_name = 3" --> will delete the entire row wherever it finds 3 on the second collumn
+
+
 "DROP TABLE table1_name" -->will delete the entire table
+
 "MENU" --> will go to a new loop of numeric commands ,generate report of all tables, delete the display and select files, and delete the database.
